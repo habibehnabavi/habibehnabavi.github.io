@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "vazir";
+  src: url("../‌bookstore/fonts/Vazir.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "vazir", Arial, sans-serif;
+}
+
+      .header {
+        padding: 10px;
+        background-color: #ffffff;
+        display: flex;
+        text-align: right;
+      }
+      .navbar {
+        padding: 20px;
+        text-align: center;
+        background-color:#ffcb05;
+        color: rgb(0, 0, 0); font-size: 130%; text-decoration: none";
+      }
+      .navbar a:hover {
+        background-color: #ffd633;
+        border-radius: 10px;
+      }
+      .tafkik {
+        width: 800px;
+        height: 300px;
+        padding: 10px;
+        text-align: center;
+        background-color: #d1f1e9;
+      }
+      .no-bullets {
+        list-style-type: none; /* Remove bullets */
+       /* padding: 0; /* Remove padding */
+       /* margin: 0; /* Remove margins */
+    }
+    .table1 {
+      border-spacing: 20px;
+      width: 60%;
+      text-align: center;
+    }
+    .table1 th, td {
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: #ffffff;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    .table2 {
+        border-spacing: 5px;
+    }
+      .table2 th, td {
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: #ffffff;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .box1 {
+        border: 2px solid #ffcb05; 
+        border-radius: 10px;
+        padding: 20px;
+        background-color: #f9f9f9; 
+        width: 80%; 
+        margin: 0 auto; /* مرکز کردن باکس */
+      }
+      .box2 {
+        border: 2px solid #ffcb05; 
+        border-radius: 10px;
+        padding: 20px;
+        background-color: #f9f9f9; 
+        width: 60%; 
+        margin: 0 auto; /* مرکز کردن باکس */
+      }
